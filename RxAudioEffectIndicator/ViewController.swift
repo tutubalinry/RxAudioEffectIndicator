@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         super.viewWillLayoutSubviews()
         
         indicator.frame = CGRect(origin: .zero, size: view.frame.size)
+        indicator.setNeedsDisplay()
     }
 
 }
